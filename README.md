@@ -1,7 +1,6 @@
 # Lesekaters Homebrew Tap
 
-Crudely made Homebrew Tap for tools that i need myself.
-I propably wouldn't reccomend using this tap ;D
+Crudely made Homebrew Tap for tools that I need myself. I probably wouldn't recommend this tap to others ;D
 
 ## How do I install these formulae?
 
