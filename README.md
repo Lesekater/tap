@@ -1,4 +1,7 @@
-# Lesekater Tap
+# Lesekaters Homebrew Tap
+
+Crudely made Homebrew Tap for tools that i need myself.
+I propably wouldn't reccomend using this tap ;D
 
 ## How do I install these formulae?
 
