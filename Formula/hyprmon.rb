@@ -3,7 +3,7 @@ class Hyprmon < Formula
   homepage "https://github.com/erans/hyprmon"
   url "https://github.com/erans/hyprmon/archive/refs/tags/v0.0.12.tar.gz"
   sha256 "ffeff85e8a700273fa2bf00cc067534af84b39c860ce5445bd345b0281eab96c"
-  license "MIT"
+  license "Apache-2.0"
 
   depends_on "go" => :build
 
@@ -16,4 +16,3 @@ class Hyprmon < Formula
     assert_match "hyprmon", shell_output("#{bin}/hyprmon --help")
   end
 end
-
