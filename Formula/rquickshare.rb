@@ -22,12 +22,12 @@ class Rquickshare < Formula
   depends_on "webkitgtk"
 
   def install
-    cd "app/legacy" do
+    cd "app/main" do
       system "pnpm", "install", "--frozen-lockfile"
       system "pnpm", "vite:build"
     end
 
-    cd "app/legacy/src-tauri" do
+    cd "app/main/src-tauri" do
       system "cargo", "install", *std_cargo_args(path: ".")
     end
   end
