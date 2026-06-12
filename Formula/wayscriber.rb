@@ -1,8 +1,8 @@
 class Wayscriber < Formula
   desc "Screen annotation tool for Wayland compositors"
   homepage "https://wayscriber.com"
-  url "https://github.com/devmobasa/wayscriber/archive/refs/tags/v0.9.8.tar.gz"
-  sha256 "979500ae353a5e4f6dddb87ee98d0c374797277623c6177b6ca0665761a090fd"
+  url "https://github.com/devmobasa/wayscriber/archive/refs/tags/v0.9.20.tar.gz"
+  sha256 "e88f463be9b21dc903ce36e908e037dd5dc6cab12c035f9b7f7d0626ab5107cc"
   license "MIT"
 
   depends_on "rust" => :build
